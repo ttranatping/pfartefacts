@@ -244,6 +244,11 @@
             <param-value>true</param-value>
         </init-param>
 
+        <!-- Max number of entities to cache. -1 means there are no limits. -->
+        <init-param>
+            <param-name>subordinateStatementCacheMaxEntries</param-name>
+            <param-value>-1</param-value>
+        </init-param>
       <load-on-startup>1</load-on-startup>
   </servlet>
 
