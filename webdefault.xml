@@ -199,6 +199,14 @@
       <servlet-name>OpenIdFederationServlet</servlet-name>
       <servlet-class>com.pingidentity.ps.oidf.servlet.trustanchor.OpenIdFederationServlet</servlet-class>
 
+		<init-param>
+		    <param-name>corsAllowOrigin</param-name>
+		    <param-value>*</param-value>
+		</init-param>
+		<init-param>
+		    <param-name>corsMaxAge</param-name>
+		    <param-value>600</param-value>
+		</init-param>
 
         <!-- Trust controller host used to back the federation service. -->
         <init-param>
