@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:ClientSetting allowClientDelete="false" cibaPolicyId="" cibaPollingInterval="3" cibaRequireSignedRequests="false" clientCertIssuerDN="" clientSecretRetentionPeriod="0" clientSecretRetentionPeriodType="" defaultAccessTokenManagerId="" deviceFlowSettingType="SERVER_DEFAULT" disableRegistrationAccessTokens="false" enableDynamicClientRegistration="false" enableDynamicClientRegistrationManagement="false" enforceOneTimeJWT="false" extendedMetataLastModified="2026-05-19T00:03:27.670Z" idTokenSigningAlgorithm="" initialAccessTokenScope="" isRequireSignedRequest="false" lockoutMaxMaliciousActionsType="SERVER_DEFAULT" persistentGrantExpirationTime="0" persistentGrantExpirationTimeUnit="d" persistentGrantIdleTimeout="0" persistentGrantIdleTimeoutTimeUnit="d" policyGroupId="" refreshRollingInterval="" refreshRollingIntervalTimeUnit="" refreshTokenRollingGracePeriodType="" requireInitialAccessToken="false" requireOfflineAccessScopeToIssueRefreshTokens="SERVER_DEFAULT" requireProofKeyForCodeExchange="false" restrictScopes="false" restrictToDefaultAccessTokenManager="false" retainClientSecret="false" rotateClientSecret="true" rotateRegistrationAccessToken="true" tokenExchangeProcessorPolicyId="" xmlns:urn="urn:pingidentity.com:pf:oauth:client:setting">
+    <urn:ExtendedMetadata parameterName="subject_type" parameterDescription="" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="application_type" parameterDescription="" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="trust_chain_trustanchor_max_time" parameterDescription="" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="trust_chain_leaf_max_time" parameterDescription="" isMultiValued="false"/>
+    <urn:ExtendedMetadata parameterName="trust_chain" parameterDescription="" isMultiValued="true"/>
+    <urn:ExtendedMetadata parameterName="contacts" parameterDescription="" isMultiValued="true"/>
+    <urn:ExtendedMetadata parameterName="status" parameterDescription="" isMultiValued="false"/>
+</urn:ClientSetting>
